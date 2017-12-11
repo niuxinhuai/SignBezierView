@@ -1,0 +1,2 @@
+# SignBezierView
+通过UIbezierPath 和CSAShapeLayer集合切圆角，防止离屏渲染
