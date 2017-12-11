@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4716391FDE1E3B005CE244 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4716381FDE1E3B005CE244 /* AppDelegate.m */; };
+		2D47163C1FDE1E3B005CE244 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D47163B1FDE1E3B005CE244 /* ViewController.m */; };
+		2D47163F1FDE1E3B005CE244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D47163D1FDE1E3B005CE244 /* Main.storyboard */; };
+		2D4716411FDE1E3B005CE244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4716401FDE1E3B005CE244 /* Assets.xcassets */; };
+		2D4716441FDE1E3B005CE244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4716421FDE1E3B005CE244 /* LaunchScreen.storyboard */; };
+		2D4716471FDE1E3B005CE244 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4716461FDE1E3B005CE244 /* main.m */; };
+		2D4716511FDE1E3B005CE244 /* SignBezierViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4716501FDE1E3B005CE244 /* SignBezierViewTests.m */; };
+		2D47165C1FDE1E3B005CE244 /* SignBezierViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D47165B1FDE1E3B005CE244 /* SignBezierViewUITests.m */; };
+		2D47166B1FDE1E85005CE244 /* UIView+SignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4716691FDE1E85005CE244 /* UIView+SignView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D47164D1FDE1E3B005CE244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D47162C1FDE1E3B005CE244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4716331FDE1E3B005CE244;
+			remoteInfo = SignBezierView;
+		};
+		2D4716581FDE1E3B005CE244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D47162C1FDE1E3B005CE244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4716331FDE1E3B005CE244;
+			remoteInfo = SignBezierView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D4716341FDE1E3B005CE244 /* SignBezierView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignBezierView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4716371FDE1E3B005CE244 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D4716381FDE1E3B005CE244 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D47163A1FDE1E3B005CE244 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D47163B1FDE1E3B005CE244 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D47163E1FDE1E3B005CE244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D4716401FDE1E3B005CE244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D4716431FDE1E3B005CE244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D4716451FDE1E3B005CE244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4716461FDE1E3B005CE244 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D47164C1FDE1E3B005CE244 /* SignBezierViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignBezierViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4716501FDE1E3B005CE244 /* SignBezierViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignBezierViewTests.m; sourceTree = "<group>"; };
+		2D4716521FDE1E3B005CE244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4716571FDE1E3B005CE244 /* SignBezierViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignBezierViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D47165B1FDE1E3B005CE244 /* SignBezierViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignBezierViewUITests.m; sourceTree = "<group>"; };
+		2D47165D1FDE1E3B005CE244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4716691FDE1E85005CE244 /* UIView+SignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SignView.m"; sourceTree = "<group>"; };
+		2D47166A1FDE1E85005CE244 /* UIView+SignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SignView.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D4716311FDE1E3B005CE244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4716491FDE1E3B005CE244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4716541FDE1E3B005CE244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D47162B1FDE1E3B005CE244 = {
+			isa = PBXGroup;
+			children = (
+				2D4716361FDE1E3B005CE244 /* SignBezierView */,
+				2D47164F1FDE1E3B005CE244 /* SignBezierViewTests */,
+				2D47165A1FDE1E3B005CE244 /* SignBezierViewUITests */,
+				2D4716351FDE1E3B005CE244 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D4716351FDE1E3B005CE244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D4716341FDE1E3B005CE244 /* SignBezierView.app */,
+				2D47164C1FDE1E3B005CE244 /* SignBezierViewTests.xctest */,
+				2D4716571FDE1E3B005CE244 /* SignBezierViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D4716361FDE1E3B005CE244 /* SignBezierView */ = {
+			isa = PBXGroup;
+			children = (
+				2D47166A1FDE1E85005CE244 /* UIView+SignView.h */,
+				2D4716691FDE1E85005CE244 /* UIView+SignView.m */,
+				2D4716371FDE1E3B005CE244 /* AppDelegate.h */,
+				2D4716381FDE1E3B005CE244 /* AppDelegate.m */,
+				2D47163A1FDE1E3B005CE244 /* ViewController.h */,
+				2D47163B1FDE1E3B005CE244 /* ViewController.m */,
+				2D47163D1FDE1E3B005CE244 /* Main.storyboard */,
+				2D4716401FDE1E3B005CE244 /* Assets.xcassets */,
+				2D4716421FDE1E3B005CE244 /* LaunchScreen.storyboard */,
+				2D4716451FDE1E3B005CE244 /* Info.plist */,
+				2D4716461FDE1E3B005CE244 /* main.m */,
+			);
+			path = SignBezierView;
+			sourceTree = "<group>";
+		};
+		2D47164F1FDE1E3B005CE244 /* SignBezierViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D4716501FDE1E3B005CE244 /* SignBezierViewTests.m */,
+				2D4716521FDE1E3B005CE244 /* Info.plist */,
+			);
+			path = SignBezierViewTests;
+			sourceTree = "<group>";
+		};
+		2D47165A1FDE1E3B005CE244 /* SignBezierViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D47165B1FDE1E3B005CE244 /* SignBezierViewUITests.m */,
+				2D47165D1FDE1E3B005CE244 /* Info.plist */,
+			);
+			path = SignBezierViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D4716331FDE1E3B005CE244 /* SignBezierView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4716601FDE1E3B005CE244 /* Build configuration list for PBXNativeTarget "SignBezierView" */;
+			buildPhases = (
+				2D4716301FDE1E3B005CE244 /* Sources */,
+				2D4716311FDE1E3B005CE244 /* Frameworks */,
+				2D4716321FDE1E3B005CE244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignBezierView;
+			productName = SignBezierView;
+			productReference = 2D4716341FDE1E3B005CE244 /* SignBezierView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D47164B1FDE1E3B005CE244 /* SignBezierViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4716631FDE1E3B005CE244 /* Build configuration list for PBXNativeTarget "SignBezierViewTests" */;
+			buildPhases = (
+				2D4716481FDE1E3B005CE244 /* Sources */,
+				2D4716491FDE1E3B005CE244 /* Frameworks */,
+				2D47164A1FDE1E3B005CE244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D47164E1FDE1E3B005CE244 /* PBXTargetDependency */,
+			);
+			name = SignBezierViewTests;
+			productName = SignBezierViewTests;
+			productReference = 2D47164C1FDE1E3B005CE244 /* SignBezierViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D4716561FDE1E3B005CE244 /* SignBezierViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4716661FDE1E3B005CE244 /* Build configuration list for PBXNativeTarget "SignBezierViewUITests" */;
+			buildPhases = (
+				2D4716531FDE1E3B005CE244 /* Sources */,
+				2D4716541FDE1E3B005CE244 /* Frameworks */,
+				2D4716551FDE1E3B005CE244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4716591FDE1E3B005CE244 /* PBXTargetDependency */,
+			);
+			name = SignBezierViewUITests;
+			productName = SignBezierViewUITests;
+			productReference = 2D4716571FDE1E3B005CE244 /* SignBezierViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D47162C1FDE1E3B005CE244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "牛新怀";
+				TargetAttributes = {
+					2D4716331FDE1E3B005CE244 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D47164B1FDE1E3B005CE244 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D4716331FDE1E3B005CE244;
+					};
+					2D4716561FDE1E3B005CE244 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D4716331FDE1E3B005CE244;
+					};
+				};
+			};
+			buildConfigurationList = 2D47162F1FDE1E3B005CE244 /* Build configuration list for PBXProject "SignBezierView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D47162B1FDE1E3B005CE244;
+			productRefGroup = 2D4716351FDE1E3B005CE244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D4716331FDE1E3B005CE244 /* SignBezierView */,
+				2D47164B1FDE1E3B005CE244 /* SignBezierViewTests */,
+				2D4716561FDE1E3B005CE244 /* SignBezierViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D4716321FDE1E3B005CE244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4716441FDE1E3B005CE244 /* LaunchScreen.storyboard in Resources */,
+				2D4716411FDE1E3B005CE244 /* Assets.xcassets in Resources */,
+				2D47163F1FDE1E3B005CE244 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D47164A1FDE1E3B005CE244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4716551FDE1E3B005CE244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4716301FDE1E3B005CE244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D47166B1FDE1E85005CE244 /* UIView+SignView.m in Sources */,
+				2D47163C1FDE1E3B005CE244 /* ViewController.m in Sources */,
+				2D4716471FDE1E3B005CE244 /* main.m in Sources */,
+				2D4716391FDE1E3B005CE244 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4716481FDE1E3B005CE244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4716511FDE1E3B005CE244 /* SignBezierViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4716531FDE1E3B005CE244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D47165C1FDE1E3B005CE244 /* SignBezierViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D47164E1FDE1E3B005CE244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4716331FDE1E3B005CE244 /* SignBezierView */;
+			targetProxy = 2D47164D1FDE1E3B005CE244 /* PBXContainerItemProxy */;
+		};
+		2D4716591FDE1E3B005CE244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4716331FDE1E3B005CE244 /* SignBezierView */;
+			targetProxy = 2D4716581FDE1E3B005CE244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D47163D1FDE1E3B005CE244 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D47163E1FDE1E3B005CE244 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D4716421FDE1E3B005CE244 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4716431FDE1E3B005CE244 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D47165E1FDE1E3B005CE244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D47165F1FDE1E3B005CE244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D4716611FDE1E3B005CE244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = SignBezierView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.SignBezierView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D4716621FDE1E3B005CE244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = SignBezierView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.SignBezierView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D4716641FDE1E3B005CE244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = SignBezierViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.SignBezierViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignBezierView.app/SignBezierView";
+			};
+			name = Debug;
+		};
+		2D4716651FDE1E3B005CE244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = SignBezierViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.SignBezierViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignBezierView.app/SignBezierView";
+			};
+			name = Release;
+		};
+		2D4716671FDE1E3B005CE244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = SignBezierViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.SignBezierViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignBezierView;
+			};
+			name = Debug;
+		};
+		2D4716681FDE1E3B005CE244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = SignBezierViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.SignBezierViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignBezierView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D47162F1FDE1E3B005CE244 /* Build configuration list for PBXProject "SignBezierView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D47165E1FDE1E3B005CE244 /* Debug */,
+				2D47165F1FDE1E3B005CE244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4716601FDE1E3B005CE244 /* Build configuration list for PBXNativeTarget "SignBezierView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4716611FDE1E3B005CE244 /* Debug */,
+				2D4716621FDE1E3B005CE244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4716631FDE1E3B005CE244 /* Build configuration list for PBXNativeTarget "SignBezierViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4716641FDE1E3B005CE244 /* Debug */,
+				2D4716651FDE1E3B005CE244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4716661FDE1E3B005CE244 /* Build configuration list for PBXNativeTarget "SignBezierViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4716671FDE1E3B005CE244 /* Debug */,
+				2D4716681FDE1E3B005CE244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D47162C1FDE1E3B005CE244 /* Project object */;
+}
